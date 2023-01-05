@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@rpanai](https://github.com/rpanai/)
+* [@hellysmile](https://github.com/hellysmile)
+* [@danger89](https://github.com/danger89)
 
