@@ -1,11 +1,11 @@
-About fake-useragent
-====================
+About fake-useragent-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fake-useragent-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hellysmile/fake-useragent
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fake-useragent-feedstock/blob/main/LICENSE.txt)
 
 Summary: Up to date simple useragent faker with real world database
 
@@ -144,6 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@rpanai](https://github.com/rpanai/)
-* [@hellysmile](https://github.com/hellysmile)
-* [@danger89](https://github.com/danger89)
 
