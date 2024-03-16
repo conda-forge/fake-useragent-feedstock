@@ -1,5 +1,5 @@
 {% set name = "fake-useragent" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fake-useragent-{{ version }}.tar.gz
-  sha256: 5426e4015d8ccc5bb25f64d3dfcfd3915eba30ffebd31b86b60dc7a4c5d65528
+  sha256: 6387269f5a2196b5ba7ed8935852f75486845a1c95c50e72460e6a8e762f5c49
 
 build:
   number: 0
