@@ -1,5 +1,6 @@
 {% set name = "fake-useragent" %}
 {% set version = "2.0.0" %}
+{% set python_min = "3.9" %}
 
 
 package:
@@ -17,10 +18,11 @@ build:
 
 requirements:
   host:
+    - python {{ python_min }}
     - pip
-    - python >=3.6
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
