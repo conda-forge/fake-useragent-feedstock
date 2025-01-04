@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python
     - pip
     - setuptools
     - importlib-resources >=6.0  # [py<310]
   run:
-    - python >={{ python_min }}
+    - python
     - importlib-resources >=6.0  # [py<310]
 
 test:
@@ -31,7 +31,7 @@ test:
   commands:
     - pip check
   requires:
-    - python >={{ python_min }}
+    - python
     - pip
 
 about:
