@@ -1,5 +1,5 @@
 {% set name = "fake-useragent" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.3" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8b547af788ed7ab018c5f13f67f229d9a4e034afe11fcbb3fa28a380eda68dae
+  sha256: af86a26ef8229efece8fed529b4aeb5b73747d889b60f01cd477b6f301df46e6
 
 build:
   number: 0
